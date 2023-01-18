@@ -11,6 +11,12 @@
 		5150E4902975C415005B954D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5150E48F2975C415005B954D /* ContentView.swift */; };
 		5150E4922975C417005B954D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5150E4912975C417005B954D /* Assets.xcassets */; };
 		5150E4952975C418005B954D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5150E4942975C418005B954D /* Preview Assets.xcassets */; };
+		5150E49C2975C7B1005B954D /* TimeCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5150E49B2975C7B1005B954D /* TimeCounter.swift */; };
+		5150E49E2975CCE3005B954D /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5150E49D2975CCE3005B954D /* RegisterView.swift */; };
+		5150E4A02975CD9F005B954D /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5150E49F2975CD9F005B954D /* UserManager.swift */; };
+		5150E4A22975CF30005B954D /* StarterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5150E4A12975CF30005B954D /* StarterView.swift */; };
+		E6B3629429786F6800480E32 /* LogOutButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B3629329786F6800480E32 /* LogOutButtonView.swift */; };
+		E6B4CB75297878080061991E /* AppStorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B4CB74297878080061991E /* AppStorageManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +25,12 @@
 		5150E48F2975C415005B954D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5150E4912975C417005B954D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5150E4942975C418005B954D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5150E49B2975C7B1005B954D /* TimeCounter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeCounter.swift; sourceTree = "<group>"; };
+		5150E49D2975CCE3005B954D /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		5150E49F2975CD9F005B954D /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
+		5150E4A12975CF30005B954D /* StarterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarterView.swift; sourceTree = "<group>"; };
+		E6B3629329786F6800480E32 /* LogOutButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogOutButtonView.swift; sourceTree = "<group>"; };
+		E6B4CB74297878080061991E /* AppStorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStorageManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +65,12 @@
 			children = (
 				5150E48D2975C415005B954D /* StateAndDataFlowApp.swift */,
 				5150E48F2975C415005B954D /* ContentView.swift */,
+				5150E49D2975CCE3005B954D /* RegisterView.swift */,
+				5150E4A12975CF30005B954D /* StarterView.swift */,
+				5150E49F2975CD9F005B954D /* UserManager.swift */,
+				E6B4CB74297878080061991E /* AppStorageManager.swift */,
+				5150E49B2975C7B1005B954D /* TimeCounter.swift */,
+				E6B3629329786F6800480E32 /* LogOutButtonView.swift */,
 				5150E4912975C417005B954D /* Assets.xcassets */,
 				5150E4932975C418005B954D /* Preview Content */,
 			);
@@ -137,7 +155,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5150E49C2975C7B1005B954D /* TimeCounter.swift in Sources */,
+				5150E49E2975CCE3005B954D /* RegisterView.swift in Sources */,
+				E6B3629429786F6800480E32 /* LogOutButtonView.swift in Sources */,
+				E6B4CB75297878080061991E /* AppStorageManager.swift in Sources */,
+				5150E4A22975CF30005B954D /* StarterView.swift in Sources */,
 				5150E4902975C415005B954D /* ContentView.swift in Sources */,
+				5150E4A02975CD9F005B954D /* UserManager.swift in Sources */,
 				5150E48E2975C415005B954D /* StateAndDataFlowApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
